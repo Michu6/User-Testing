@@ -1,0 +1,62 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+body {
+	background: url(../image/large.jpg) no-repeat;
+	background-size: 100%;
+}
+.form-wrapper {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	border-top: 15px solid #64ABFF;
+	transform: translate(-50%, -50%);
+	background: #fff;
+	width: 50%;
+	min-height: 100px;
+	border-radius: 3px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.4);
+	padding: 30px;
+}
+.form-title {
+	font-size: 2em;
+	border-bottom: 1px solid #64ABFF;
+	width: 100%;
+}
+.input-text {
+	display: block;
+	margin-bottom: 20px;
+}
+.input-text label {
+	display: block;
+	font-weight: 500;
+	color: #999;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.input-text input[type="text"] {
+	outline: none;
+	border: 0;
+	border-bottom: 2px solid #ddd;
+	width: 100%;
+	display: block;
+	font-size: 24px;
+	transition: all .4s ease-in-out;
+	color: #333;
+	font-weight: 500;
+}
+.input-text input[type="text"]:focus {
+	border-color: #64ABFF;
+}
+form {
+	margin: 50px auto;
+	width: 80%;
+}
+form .obligatory {
+	color: red;
+}
+footer {
+	width: 100%;
+}
