@@ -1,0 +1,37 @@
+@media screen and (min-width: 980px){
+	.container {
+	    margin: 0 auto;
+	    max-width: 80%;
+	}
+}
+
+@media screen and (max-width: 979px){
+	.container {
+		margin: 0 auto;
+	    max-width: 85%;
+	}
+	.hero .header-item img {
+    max-height: none;
+    width: 200px;
+	}
+	h1.title {
+		font-size: 3em;
+	}
+	h3 {
+		padding: 0;
+	}
+	#user-steps .column.is-6, #user-steps .column.is-6-tablet {
+    width: 100%;
+   }
+	.steps-text .steps-detail {
+    padding: 0 10px;
+    text-align: center;
+	}
+	.steps-text .steps-detail ul {
+		padding: 20px 70px;
+	}
+	footer .is-text-left, footer .is-text-right {
+		text-align: center;
+	}
+}
+
